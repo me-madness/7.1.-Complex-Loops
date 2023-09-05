@@ -6,7 +6,7 @@ for row in range (1, n + 1):
         num += 1 
         if col >= row:
             print()
-            if num > n:
-                break
+        if num > n:
+            break
     if num > n:
         break    
